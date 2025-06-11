@@ -2,7 +2,7 @@
 <html lang="en">
 <html>
 <head>
-    <link rel = "stylesheet" href="style.css">
+    <link rel = "stylesheet" href="css/style.css">
     <title>Our Ancestors</title>
     <link rel="icon" type="image/x-icon" href="monkey.png">
 </head>
@@ -18,12 +18,22 @@
                 <li>Baboons</li>
                 <li>Big Foot</li>
             </ul>
-        </p>  
+
+            <form actions="/submit" method="post">
+                <label for="name">Name;</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email;</label>
+                <input type="text" id="email" name="email">
+
+                <input type="submit" value="submit">
+            </form>
+        </p>
+        <nav>
+            <ol>
+                <li><a href="https://en.wikipedia.org/wiki/Monkey">Monkepedia</a></li>
+                <li><a href= "https://en.wikipedia.org/wiki/Gorillaz">gorillapedia</a></li>
+            </ol>
+        </nav>  
     </body>
-   <nav>
-        <ol>
-            <li><a href="https://en.wikipedia.org/wiki/Monkey">Monkepedia</a></li>
-            <li><a href= "https://en.wikipedia.org/wiki/Gorillaz">gorillapedia</a></li>
-        </ol>1
-   </nav>
 </html>
