@@ -1,17 +1,17 @@
 body{
-    flex: content;
-    flex-direction: row;
     background-image: url('https://media.tenor.com/rsSBhhCbF5UAAAAM/shlummo.gif');
     background-repeat: no-repeat;
     background-size: 30%;
     float: right;
     padding-right: 400px;
 }
-#info {
-    width: 1000px;
+#info { 
+    width: 50%;
     height: 100%;
-}
-div #container{
-    flex: content;
+} 
+
+#flex-container {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
 }
