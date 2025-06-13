@@ -2,11 +2,34 @@
 <html lang="en">
 <html>
     <head>
-    <link rel = "stylesheet" href="submit.css">
-    <title>Our Ancestors</title>
-    <link rel="icon" type="image/x-icon" href="monkey.png">
-</head>
-    <body>
+        <link rel = "stylesheet" href="submit.css">
+        <title>Our Ancestors</title>
+        <link rel="icon" type="image/x-icon" href="monkey.png">
+    </head>
+    
+    <body style="background-color: burlywood;">
+        <h1>
+            Please fill out this form
+        </h1>
+        <p>
+            <form actions="submit" method="post">
+                <label for="name">Name;</label>
+                <input type="text" id="name" name="name">
 
+                <label for="email">Email;</label>
+                <input type="text" id="email" name="email">
+                <br>
+                <label for="radio">test;</label>
+                <input type="radio" id="radio" name="radio">
+
+                <select name="test" id="test">
+                <option value="test"></option>
+                <option value="test 1"></option>
+                <option value="test 2222"></option>
+                </select>
+
+                <input type="submit" value="submit">
+            </form>
+        </p>
     </body>
 </html>
