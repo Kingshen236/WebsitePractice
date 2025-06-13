@@ -1,4 +1,6 @@
 body{
+    flex: content;
+    flex-direction: row;
     background-image: url('https://media.tenor.com/rsSBhhCbF5UAAAAM/shlummo.gif');
     background-repeat: no-repeat;
     background-size: 30%;
@@ -8,4 +10,8 @@ body{
 #info {
     width: 1000px;
     height: 100%;
+}
+div #container{
+    flex: content;
+    flex-direction: row;
 }
