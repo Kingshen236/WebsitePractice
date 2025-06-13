@@ -3,12 +3,12 @@
     
     float: right;
     height: 100%;
-    width: 1200px;
+    width: 900px;
     padding-left: 250px;
 }
 .container{
     display: grid;
-    grid-auto-flow: column;
+    grid-template-areas: inherit;
     padding: 15px;
 }
 
